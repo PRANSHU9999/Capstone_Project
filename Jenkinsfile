@@ -1,6 +1,5 @@
 pipeline {
 
-```
 agent any
 
 tools {
@@ -75,6 +74,4 @@ post {
         echo 'Pipeline Execution Completed'
     }
 }
-```
-
 }
