@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BlazeDemo Suite">
+
+    <test name="Chrome Test">
+
+        <parameter name="browser"
+                   value="chrome"/>
+
+        <classes>
+			<class name="testcases.LaunchTest"/>
+			<class name="testcases.EndToEndBookingTest"/>
+            <class name="testcases.SearchFlightTest"/>
+
+        </classes>
+
+    </test>
+ 
+    <test name="Edge Test">
+
+        <parameter name="browser"
+                   value="edge"/>
+
+        <classes>
+
+            <class name="testcases.EndToEndBookingTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
