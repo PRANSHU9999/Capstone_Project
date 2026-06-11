@@ -12,7 +12,7 @@ stages {
 
     stage('Checkout Code') {
         steps {
-            checkout scm
+            git branch: 'main', url: 'https://github.com/PRANSHU9999/Capstone_Project.git'
         }
     }
 
