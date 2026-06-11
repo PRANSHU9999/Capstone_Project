@@ -55,12 +55,9 @@
 </dependency>
 
 </dependencies>
-<<<<<<< HEAD
 
-	<build>
-=======
 <build>
->>>>>>> f7bfe7e (Committing firefox changes)
+
     <plugins>
 
         <plugin>
@@ -78,3 +75,4 @@
 
     </plugins>
 </build>
+</project>
