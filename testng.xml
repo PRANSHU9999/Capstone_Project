@@ -16,17 +16,17 @@
 
     </test>
  
-    <test name="Edge Test">
+    <test name="Firefox Test">
 
-        <parameter name="browser"
-                   value="edge"/>
+    <parameter name="browser"
+               value="firefox"/>
 
-        <classes>
+    <classes>
 
-            <class name="testcases.EndToEndBookingTest"/>
+        <class name="testcases.EndToEndBookingTest"/>
 
-        </classes>
+    </classes>
 
-    </test>
+</test>
 
 </suite>

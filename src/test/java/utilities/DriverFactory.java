@@ -2,7 +2,8 @@ package utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -10,8 +11,7 @@ public class DriverFactory {
 
     private static WebDriver driver;
 
-    public static WebDriver initializeDriver(
-            String browser) {
+    public static WebDriver initializeDriver(String browser) {
 
         if (browser.equalsIgnoreCase("chrome")) {
 
@@ -19,16 +19,17 @@ public class DriverFactory {
 
             driver = new ChromeDriver();
 
-        } else if (browser.equalsIgnoreCase("edge")) {
-        	
-        	 System.setProperty(
-        		        "webdriver.edge.driver",
-        		        System.getProperty("user.dir")
-        		        + "\\drivers\\msedgedriver.exe");
+        } 
+        else if (browser.equalsIgnoreCase("firefox")) {
 
-        		    driver = new EdgeDriver();
+            WebDriverManager.firefoxdriver().setup();
 
-        } else {
+            FirefoxOptions options = new FirefoxOptions();
+
+            driver = new FirefoxDriver(options);
+
+        } 
+        else {
 
             throw new RuntimeException(
                     "Unsupported Browser : "
