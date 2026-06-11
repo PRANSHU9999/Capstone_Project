@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T17:23:10 IST" name="BlazeDemo Suite" finished-at="2026-06-11T17:24:04 IST" duration-ms="53185">
+  <suite started-at="2026-06-11T18:04:52 IST" name="BlazeDemo Suite" finished-at="2026-06-11T18:05:11 IST" duration-ms="18920">
     <groups>
     </groups>
-    <test started-at="2026-06-11T17:23:10 IST" name="Chrome Test" finished-at="2026-06-11T17:23:30 IST" duration-ms="19456">
+    <test started-at="2026-06-11T18:04:52 IST" name="Chrome Test" finished-at="2026-06-11T18:05:11 IST" duration-ms="18920">
       <class name="testcases.LaunchTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T17:23:10 IST" name="setup" finished-at="2026-06-11T17:23:13 IST" duration-ms="2289" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T18:04:52 IST" name="setup" finished-at="2026-06-11T18:04:54 IST" duration-ms="2343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyApplicationLaunch()[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T17:23:13 IST" name="verifyApplicationLaunch" finished-at="2026-06-11T17:23:13 IST" duration-ms="12" status="PASS">
+        <test-method signature="verifyApplicationLaunch()[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T18:04:54 IST" name="verifyApplicationLaunch" finished-at="2026-06-11T18:04:54 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyApplicationLaunch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T17:23:13 IST" name="tearDown" finished-at="2026-06-11T17:23:13 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LaunchTest@1165b38]" started-at="2026-06-11T18:04:54 IST" name="tearDown" finished-at="2026-06-11T18:04:55 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.LaunchTest -->
       <class name="testcases.EndToEndBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:13 IST" name="setup" finished-at="2026-06-11T17:23:15 IST" duration-ms="1777" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:04:55 IST" name="setup" finished-at="2026-06-11T18:04:57 IST" duration-ms="1823" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:15 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:18 IST" duration-ms="2572" status="PASS">
+        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:04:57 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T18:04:59 IST" duration-ms="2556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:18 IST" name="tearDown" finished-at="2026-06-11T17:23:18 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:04:59 IST" name="tearDown" finished-at="2026-06-11T18:05:00 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:18 IST" name="setup" finished-at="2026-06-11T17:23:20 IST" duration-ms="1711" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:00 IST" name="setup" finished-at="2026-06-11T18:05:01 IST" duration-ms="1767" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:20 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:22 IST" duration-ms="2448" status="PASS">
+        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:01 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T18:05:04 IST" duration-ms="2591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,11 +186,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:22 IST" name="tearDown" finished-at="2026-06-11T17:23:22 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:04 IST" name="tearDown" finished-at="2026-06-11T18:05:04 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:22 IST" name="setup" finished-at="2026-06-11T17:23:24 IST" duration-ms="1989" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:04 IST" name="setup" finished-at="2026-06-11T18:05:06 IST" duration-ms="1810" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:24 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:27 IST" duration-ms="2663" status="PASS">
+        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:06 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T18:05:08 IST" duration-ms="2379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,13 +267,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T17:23:27 IST" name="tearDown" finished-at="2026-06-11T17:23:27 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@2aceadd4]" started-at="2026-06-11T18:05:08 IST" name="tearDown" finished-at="2026-06-11T18:05:09 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.EndToEndBookingTest -->
       <class name="testcases.SearchFlightTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T17:23:27 IST" name="setup" finished-at="2026-06-11T17:23:29 IST" duration-ms="2002" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T18:05:09 IST" name="setup" finished-at="2026-06-11T18:05:10 IST" duration-ms="1738" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,262 +284,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyFlightSearch()[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T17:23:29 IST" name="verifyFlightSearch" finished-at="2026-06-11T17:23:30 IST" duration-ms="685" status="PASS">
+        <test-method signature="verifyFlightSearch()[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T18:05:10 IST" name="verifyFlightSearch" finished-at="2026-06-11T18:05:11 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFlightSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T17:23:30 IST" name="tearDown" finished-at="2026-06-11T17:23:30 IST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchFlightTest@24aed80c]" started-at="2026-06-11T18:05:11 IST" name="tearDown" finished-at="2026-06-11T18:05:11 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.SearchFlightTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2026-06-11T17:23:30 IST" name="Firefox Test" finished-at="2026-06-11T17:24:04 IST" duration-ms="33570">
-      <class name="testcases.EndToEndBookingTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:30 IST" name="setup" finished-at="2026-06-11T17:23:34 IST" duration-ms="3938" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:34 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:36 IST" duration-ms="2126" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Paris]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[London]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Pranshu]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ABC Street]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Varanasi]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[UP]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[221001]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Visa]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[4111111111111110]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2028]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Pranshu Mishra]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:36 IST" name="tearDown" finished-at="2026-06-11T17:23:42 IST" duration-ms="5456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:42 IST" name="setup" finished-at="2026-06-11T17:23:45 IST" duration-ms="3374" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:45 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:47 IST" duration-ms="2384" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Boston]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Rahul]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[XYZ Colony]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[110001]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[American Express]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[378282246310005]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2027]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Rahul Sharma]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:47 IST" name="tearDown" finished-at="2026-06-11T17:23:53 IST" duration-ms="5454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:53 IST" name="setup" finished-at="2026-06-11T17:23:56 IST" duration-ms="3230" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCompleteBookingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:56 IST" name="verifyCompleteBookingFlow" data-provider="passengerData" finished-at="2026-06-11T17:23:58 IST" duration-ms="2117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mexico City]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Berlin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Aman]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[MG Road]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Karnataka]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[560001]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Diner's Club]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[30569309025904]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[2029]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Aman Verma]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCompleteBookingFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.EndToEndBookingTest@6950ed69]" started-at="2026-06-11T17:23:58 IST" name="tearDown" finished-at="2026-06-11T17:24:04 IST" duration-ms="5461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.EndToEndBookingTest -->
-    </test> <!-- Firefox Test -->
   </suite> <!-- BlazeDemo Suite -->
 </testng-results>
