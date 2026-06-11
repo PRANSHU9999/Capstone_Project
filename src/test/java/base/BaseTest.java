@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import listeners.TestListener;
@@ -17,21 +18,17 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters("browser")
-    public void setup(String browser) {
+    public void setup(@Optional("chrome") String browser) {
 
-        driver =
-                DriverFactory.initializeDriver(
-                        browser);
+        driver = DriverFactory.initializeDriver(browser);
 
-        driver.get(
-                ConfigReader.getProperty("url"));
+        driver.get(ConfigReader.getProperty("url"));
     }
 
     @AfterMethod
     public void tearDown() {
 
         if (driver != null) {
-
             driver.quit();
         }
     }
